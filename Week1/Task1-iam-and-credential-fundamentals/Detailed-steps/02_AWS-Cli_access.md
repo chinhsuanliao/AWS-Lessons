@@ -34,7 +34,7 @@ AWS Console → Services → S3 → Create bucket
 
 ```bash
 aws sts get-caller-identity --no-verify-ssl
-``
+```
 
 
 <img width="503" height="164" alt="Screenshot 2026-04-19 015719" src="https://github.com/user-attachments/assets/6e0942eb-0d14-4fc0-8026-aadc0e355430" />
