@@ -8,6 +8,7 @@
 
 ### 2. 創建 aws credential（access key & secret），並且使用 aws cli 嘗試存取 ec2 列表（可以手動創建一台機器）及 s3 列表。
 <img width="499" height="98" alt="image" src="https://github.com/user-attachments/assets/6d0b8fae-ab36-4f20-aee6-d5fd21272305" />
+<img width="495" height="410" alt="Screenshot 2026-04-19 023109" src="https://github.com/user-attachments/assets/8a393b33-017e-433c-8905-0a451c1e59d0" />
 
 
 
