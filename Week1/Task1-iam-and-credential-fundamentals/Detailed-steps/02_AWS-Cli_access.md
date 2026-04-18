@@ -19,6 +19,7 @@ IAM → Users → iam-admin → Security credentials
 terminal下操作指令
 ```bash
 aws configure
+aws configure set default.region ap-northeast-1
 ```
 AWS Access Key ID:     <iam-admin access key>
 AWS Secret Access Key: <iam-admin secret>
