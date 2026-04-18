@@ -20,7 +20,7 @@ Before
 <img width="493" height="135" alt="image" src="https://github.com/user-attachments/assets/28345284-40e0-4a1d-a548-381c24a5ae1f" />
 
 After
-<img width="501" height="201" alt="image" src="https://github.com/user-attachments/assets/9fbe6bc7-2854-46fd-88a6-3cce1932f908" />
+<img width="492" height="196" alt="image" src="https://github.com/user-attachments/assets/bc378d33-640c-47ad-88b4-4d3cae8e3e34" />
 
 Inline policy是最小的權限單位，可以用在IAM Users, IAM Groups, IAM Roles。
 
