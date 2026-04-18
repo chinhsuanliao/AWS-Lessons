@@ -1,4 +1,4 @@
-<img width="500" height="276" alt="image" src="https://github.com/user-attachments/assets/243b4e4a-96e4-47ac-a8e4-5e7be69c5401" /># 【問答題】
+# 【問答題】
 ### 1. root user 跟 iam user 的差別？
 ### 2. user, group, role, policy 彼此間的關係為何？policy 的格式為何？
 
@@ -12,6 +12,8 @@
 
 ### 3. 創建一個 user，名為 `s3_readonly`，並且僅給予其 s3 readonly 的權限，為此 user 創建 credential 並且設定在 aws cli 內，使用不同的 profile 可以指定用哪個 credential 跟 aws 溝通，驗證方式為嘗試取得 ec2 及 s3 的列表，其中一個會失敗。
 <img width="500" height="276" alt="image" src="https://github.com/user-attachments/assets/7ec93e7f-1623-4b4d-ac3c-b3cdac45933d" />
+
+<img width="500" height="276" alt="image" src="https://github.com/user-attachments/assets/243b4e4a-96e4-47ac-a8e4-5e7be69c5401" />
 
 EC2如預期失敗，因為沒開權限給他
 ### 4. 嘗試創建 inline policy，使 s3_readonly 這個使用者在某個時間後就無法存取 s3，並且回答 inline policy 可以用在哪些地方。
