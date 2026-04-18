@@ -31,12 +31,18 @@ Launch instance  → Ubuntu/Amazon Linux  → security group 開 SSH
 AWS Console → Services → S3 → Create bucket
 
 6. 用 AWS CLI 驗證
+```bash
+aws sts get-caller-identity --no-verify-ssl
+``
+
 aws sts get-caller-identity
 <img width="503" height="164" alt="Screenshot 2026-04-19 015719" src="https://github.com/user-attachments/assets/6e0942eb-0d14-4fc0-8026-aadc0e355430" />
+
+
 ```bash
 aws ec2 describe-instances
 aws s3 ls
-```
+``
 
 *以下代表有成功讀取 但尚未建立任何指定服務
 <img width="491" height="110" alt="image" src="https://github.com/user-attachments/assets/518c4346-5477-4748-8f75-5b6edbc1947a" />
