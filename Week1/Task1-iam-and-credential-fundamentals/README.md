@@ -15,4 +15,6 @@
 
 EC2如預期失敗，因為沒開權限給他
 ### 4. 嘗試創建 inline policy，使 s3_readonly 這個使用者在某個時間後就無法存取 s3，並且回答 inline policy 可以用在哪些地方。
+<img width="493" height="135" alt="image" src="https://github.com/user-attachments/assets/28345284-40e0-4a1d-a548-381c24a5ae1f" />
+
 ### 5. 嘗試創建 EC2，並且為其創建一個 S3ReadOnlyRole 的 role，使 ec2 上可以使用 aws cli（或是 sdk） 存取 s3 資源，並且不需要設定 access key。（這題可以用 aws linux，因為他有內建 aws cli）
