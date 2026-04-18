@@ -26,4 +26,11 @@ AWS Console → IAM → Users → s3_readonly
 <img width="364" height="313" alt="image" src="https://github.com/user-attachments/assets/595d70a4-59e3-4939-965b-fb8b0fbde146" />
 
 
+### Verify S3 Access Before Expiration (Expected: Success)
+
+```bash
+aws s3 ls --profile s3_readonly
+```
+
+
 
