@@ -5,7 +5,7 @@ AWS Console → IAM → Users → s3_readonly
 ### 1. 設定Inline Policy 
 <img width="350" height="389" alt="image" src="https://github.com/user-attachments/assets/59a3acaa-8d36-48a3-8a8d-de23c6b625fe" />
 
-'''bash
+```bash
 {
 	"Version": "2012-10-17",
 	"Statement": [
@@ -22,7 +22,7 @@ AWS Console → IAM → Users → s3_readonly
 		}
 	]
 }
-'''
+```
 <img width="364" height="313" alt="image" src="https://github.com/user-attachments/assets/595d70a4-59e3-4939-965b-fb8b0fbde146" />
 
 
