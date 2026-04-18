@@ -1,5 +1,5 @@
 
-1. Create an IAM account as aws credential（access key & secret）
+##1. Create an IAM account as aws credential（access key & secret）
 Root User作為最大權限者，直接開aws credential 很混亂，因此開了iam-admin來管理未來不同用途的iam user
 - 權限：AdministratorAccess
 - 用途: AWS CLI 預設使用者
@@ -13,7 +13,7 @@ IAM → Users → iam-admin → Security credentials
 最後再開啟MFA
 Note: access key 是「iam-admin 的身分憑證」, 不是「Root 替他創立的共用鑰匙」,所以root看不到
 
-2. 在PC上設定configuration
+##2. 在PC上設定configuration
 terminal下操作指令
 ```bash
 aws configure
@@ -23,14 +23,14 @@ AWS Secret Access Key: <iam-admin secret>
 Default region name:  us-east-1 (可以隨便換)
 Default output format: json
 
-3.用Console建立EC2（用 iam-admin）
+##3.用Console建立EC2（用 iam-admin）
 Launch instance  → Ubuntu/Amazon Linux  → security group 開 SSH
 
 
-4. 用Console建立S3 bucket
+##4. 用Console建立S3 bucket
 AWS Console → Services → S3 → Create bucket
 
-6. 用 AWS CLI 驗證
+##5. 用 AWS CLI 驗證
 
 ```bash
 aws sts get-caller-identity --no-verify-ssl
@@ -43,7 +43,7 @@ aws sts get-caller-identity --no-verify-ssl
 ```bash
 aws ec2 describe-instances
 aws s3 ls
-``
+```
 
 *以下代表有成功讀取 但尚未建立任何指定服務
 <img width="491" height="110" alt="image" src="https://github.com/user-attachments/assets/518c4346-5477-4748-8f75-5b6edbc1947a" />
