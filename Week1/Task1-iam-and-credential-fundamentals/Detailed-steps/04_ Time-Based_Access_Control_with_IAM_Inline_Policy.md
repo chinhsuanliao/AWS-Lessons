@@ -19,7 +19,7 @@ AWS Console → IAM → Users → s3_readonly
 			"Resource": "*",
 			"Condition": {
 				"DateGreaterThan": {
-					"aws:CurrentTime": "2026-04-19T19:10:00Z"
+					"aws:CurrentTime": "2026-04-18T19:17:00Z"
 				}
 			}
 		}
