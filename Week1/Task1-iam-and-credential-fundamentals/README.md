@@ -8,7 +8,7 @@
 
 ### 2. 創建 aws credential（access key & secret），並且使用 aws cli 嘗試存取 ec2 列表（可以手動創建一台機器）及 s3 列表。
 <img width="499" height="98" alt="image" src="https://github.com/user-attachments/assets/6d0b8fae-ab36-4f20-aee6-d5fd21272305" />
-<img width="495" height="410" alt="Screenshot 2026-04-19 023109" src="https://github.com/user-attachments/assets/8a393b33-017e-433c-8905-0a451c1e59d0" />ㄖㄨ及 s3 的列表，其中一個會失敗。
+<img width="495" height="410" alt="Screenshot 2026-04-19 023109" src="https://github.com/user-attachments/assets/8a393b33-017e-433c-8905-0a451c1e59d0" />
 <img width="500" height="276" alt="image" src="https://github.com/user-attachments/assets/7ec93e7f-1623-4b4d-ac3c-b3cdac45933d" />
 
 EC2如預期失敗，因為沒開權限給他
