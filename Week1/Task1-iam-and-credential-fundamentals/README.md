@@ -15,8 +15,12 @@
 
 EC2如預期失敗，因為沒開權限給他
 ### 4. 嘗試創建 inline policy，使 s3_readonly 這個使用者在某個時間後就無法存取 s3，並且回答 inline policy 可以用在哪些地方。
+
+Before 
 <img width="493" height="135" alt="image" src="https://github.com/user-attachments/assets/28345284-40e0-4a1d-a548-381c24a5ae1f" />
 
+After
+<img width="501" height="201" alt="image" src="https://github.com/user-attachments/assets/9fbe6bc7-2854-46fd-88a6-3cce1932f908" />
 
 Inline policy是最小的權限單位，可以用在IAM Users, IAM Groups, IAM Roles。
 
